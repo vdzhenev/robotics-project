@@ -1,0 +1,30 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.266916435291356 -0.9510370512022088 -0.15583370563508636 5.250525448871345
+  position 3.9708400441433387 1.9444933611803414 1.7133881186704327
+}
+DEF _al Puma560 {
+  controller "my_controller"
+  controllerArgs [
+    ""
+  ]
+}
+Floor {
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Ball {
+  translation 0.64 1.01234 -0.772047
+  rotation 1 0 0 0.007987884237346948
+  radius 0.003
+  mass 0.1
+}
+OilBarrel {
+  translation 0.67 0.44 -1.05
+  height 1.09
+}
